@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:emerald_block"
+  },
+  "result": {
+    "count": 16,
+    "id": "more_metal_grates:emerald_grate"
+  }
+}

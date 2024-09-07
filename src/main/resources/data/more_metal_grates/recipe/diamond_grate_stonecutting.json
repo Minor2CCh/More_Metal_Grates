@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diamond_block"
+  },
+  "result": {
+    "count": 64,
+    "id": "more_metal_grates:diamond_grate"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "more_metal_grates:iron_grate",
+    "more_metal_grates:gold_grate",
+    "more_metal_grates:lapis_grate",
+    "more_metal_grates:quartz_grate",
+    "more_metal_grates:amethyst_grate",
+    "more_metal_grates:redstone_grate",
+    "more_metal_grates:diamond_grate",
+    "more_metal_grates:emerald_grate",
+    "more_metal_grates:netherite_grate"
+  ]
+}
