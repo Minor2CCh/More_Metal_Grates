@@ -23,6 +23,7 @@ public class mmg_ItemGroup {
             itemGroup.add(mmg_block.GOLD_GRATE);
             itemGroup.add(mmg_block.LAPIS_GRATE);
             itemGroup.add(mmg_block.QUARTZ_GRATE);
+            itemGroup.add(mmg_block.SMOOTH_QUARTZ_GRATE);
             itemGroup.add(mmg_block.AMETHYST_GRATE);
             itemGroup.add(mmg_block.REDSTONE_GRATE);
             itemGroup.add(mmg_block.DIAMOND_GRATE);

@@ -14,6 +14,7 @@ public class More_metal_gratesClient implements ClientModInitializer {
                 mmg_block.GOLD_GRATE,
                 mmg_block.LAPIS_GRATE,
                 mmg_block.QUARTZ_GRATE,
+                mmg_block.SMOOTH_QUARTZ_GRATE,
                 mmg_block.AMETHYST_GRATE,
                 mmg_block.REDSTONE_GRATE,
                 mmg_block.DIAMOND_GRATE,

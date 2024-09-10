@@ -53,6 +53,17 @@ public class mmg_block extends Blocks{
             "quartz_grate",
             true
     );
+    public static final Block SMOOTH_QUARTZ_GRATE = register(
+            new MetalGrateBlock(AbstractBlock.Settings.create()
+                    .strength(2.0f, 6.0f)
+                    .sounds(BlockSoundGroup.COPPER_GRATE)
+                    .mapColor(MapColor.WHITE).nonOpaque().requiresTool().allowsSpawning(Blocks::never)
+                    .solidBlock(Blocks::never)
+                    .suffocates(Blocks::never)
+                    .blockVision(Blocks::never)),
+            "smooth_quartz_grate",
+            true
+    );
     public static final Block AMETHYST_GRATE = register(
             new MetalGrateBlock(AbstractBlock.Settings.create()
                     .strength(1.5f, 1.5f)
