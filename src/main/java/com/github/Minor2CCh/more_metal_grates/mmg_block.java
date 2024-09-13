@@ -18,7 +18,7 @@ public class mmg_block extends Blocks{
                     .suffocates(Blocks::never)
                     .blockVision(Blocks::never)),
             "iron_grate",
-            true
+            true, false
     );
     public static final Block GOLD_GRATE = register(
             new MetalGrateBlock(AbstractBlock.Settings.create()
@@ -29,7 +29,7 @@ public class mmg_block extends Blocks{
                     .suffocates(Blocks::never)
                     .blockVision(Blocks::never)),
             "gold_grate",
-            true
+            true, false
     );
     public static final Block LAPIS_GRATE = register(
             new MetalGrateBlock(AbstractBlock.Settings.create()
@@ -40,7 +40,7 @@ public class mmg_block extends Blocks{
                     .suffocates(Blocks::never)
                     .blockVision(Blocks::never)),
             "lapis_grate",
-            true
+            true, false
     );
     public static final Block QUARTZ_GRATE = register(
             new MetalGrateBlock(AbstractBlock.Settings.create()
@@ -51,7 +51,7 @@ public class mmg_block extends Blocks{
                     .suffocates(Blocks::never)
                     .blockVision(Blocks::never)),
             "quartz_grate",
-            true
+            true, false
     );
     public static final Block SMOOTH_QUARTZ_GRATE = register(
             new MetalGrateBlock(AbstractBlock.Settings.create()
@@ -62,7 +62,7 @@ public class mmg_block extends Blocks{
                     .suffocates(Blocks::never)
                     .blockVision(Blocks::never)),
             "smooth_quartz_grate",
-            true
+            true, false
     );
     public static final Block AMETHYST_GRATE = register(
             new MetalGrateBlock(AbstractBlock.Settings.create()
@@ -73,7 +73,7 @@ public class mmg_block extends Blocks{
                     .suffocates(Blocks::never)
                     .blockVision(Blocks::never)),
             "amethyst_grate",
-            true
+            true, false
     );
     public static final Block REDSTONE_GRATE = register(
             new RedStoneGrateBlock(AbstractBlock.Settings.create()
@@ -84,7 +84,7 @@ public class mmg_block extends Blocks{
                     .suffocates(Blocks::never)
                     .blockVision(Blocks::never)),
             "redstone_grate",
-            true
+            true, false
     );
     public static final Block DIAMOND_GRATE = register(
             new MetalGrateBlock(AbstractBlock.Settings.create()
@@ -95,7 +95,7 @@ public class mmg_block extends Blocks{
                     .suffocates(Blocks::never)
                     .blockVision(Blocks::never)),
             "diamond_grate",
-            true
+            true, false
     );
     public static final Block EMERALD_GRATE = register(
             new MetalGrateBlock(AbstractBlock.Settings.create()
@@ -106,7 +106,7 @@ public class mmg_block extends Blocks{
                     .suffocates(Blocks::never)
                     .blockVision(Blocks::never)),
             "emerald_grate",
-            true
+            true, false
     );
     public static final Block NETHERITE_GRATE = register(
             new MetalGrateBlock(AbstractBlock.Settings.create()
@@ -117,7 +117,7 @@ public class mmg_block extends Blocks{
                     .suffocates(Blocks::never)
                     .blockVision(Blocks::never)),
             "netherite_grate",
-            true
+            true, true
     );
 
 
@@ -129,10 +129,16 @@ public class mmg_block extends Blocks{
 
 
 
-    public static Block register(Block block, String name, boolean shouldRegisterItem) {
+    public static Block register(Block block, String name, boolean shouldRegisterItem, boolean fireproof) {
         Identifier id = Identifier.of(More_metal_grates.MOD_ID, name);
         if (shouldRegisterItem) {
-            BlockItem blockItem = new BlockItem(block, new Item.Settings());
+            BlockItem blockItem;
+            if(fireproof) {
+                blockItem = new BlockItem(block, new Item.Settings().fireproof());
+            }
+            else{
+                blockItem = new BlockItem(block, new Item.Settings());
+            }
             Registry.register(Registries.ITEM, id, blockItem);
         }
 
