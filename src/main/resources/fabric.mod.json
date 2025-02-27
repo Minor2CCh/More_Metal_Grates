@@ -5,7 +5,9 @@
   "name": "More Metal Grates",
   "description": "Add some grates!",
   "authors": ["Minor2CCh"],
-  "contact": {},
+  "contact": {
+    "issues": "https://github.com/Minor2CCh/More_Metal_Grates/issues",
+    "sources": "https://github.com/Minor2CCh/More_Metal_Grates"},
   "license": "MIT",
   "icon": "icon.png",
   "environment": "*",
