@@ -7,7 +7,7 @@ public class More_metal_grates implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        mmg_item.initialize();
+        //mmg_item.initialize();
         mmg_block.initialize();
         mmg_ItemGroup.initialize();
     }

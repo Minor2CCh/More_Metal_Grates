@@ -3,9 +3,7 @@
   "category": "building",
   "group": "iron_grate",
   "key": {
-    "#": {
-      "item": "minecraft:iron_bars"
-    }
+    "#": "minecraft:iron_bars"
   },
   "pattern": [
     "###",

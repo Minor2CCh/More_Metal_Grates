@@ -17,16 +17,9 @@
       "com.github.Minor2CCh.more_metal_grates.More_metal_grates"
     ]
   },
-  "mixins": [
-    "more_metal_grates.mixins.json",
-    {
-      "config": "more_metal_grates.client.mixins.json",
-      "environment": "client"
-    }
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "1.21.x"
+    "minecraft": ">=1.21.3"
   }
 }

@@ -19,16 +19,16 @@ public class mmg_ItemGroup {
     public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, GRATES_ITEM_GROUP_KEY, GRATES_ITEM_GROUP);
         ItemGroupEvents.modifyEntriesEvent(GRATES_ITEM_GROUP_KEY).register(itemGroup -> {
-            itemGroup.add(mmg_block.IRON_GRATE);
-            itemGroup.add(mmg_block.GOLD_GRATE);
-            itemGroup.add(mmg_block.LAPIS_GRATE);
-            itemGroup.add(mmg_block.QUARTZ_GRATE);
-            itemGroup.add(mmg_block.SMOOTH_QUARTZ_GRATE);
-            itemGroup.add(mmg_block.AMETHYST_GRATE);
-            itemGroup.add(mmg_block.REDSTONE_GRATE);
-            itemGroup.add(mmg_block.DIAMOND_GRATE);
-            itemGroup.add(mmg_block.EMERALD_GRATE);
-            itemGroup.add(mmg_block.NETHERITE_GRATE);
+            itemGroup.add(mmg_block.IRON_GRATE.asItem());
+            itemGroup.add(mmg_block.GOLD_GRATE.asItem());
+            itemGroup.add(mmg_block.LAPIS_GRATE.asItem());
+            itemGroup.add(mmg_block.QUARTZ_GRATE.asItem());
+            itemGroup.add(mmg_block.SMOOTH_QUARTZ_GRATE.asItem());
+            itemGroup.add(mmg_block.AMETHYST_GRATE.asItem());
+            itemGroup.add(mmg_block.REDSTONE_GRATE.asItem());
+            itemGroup.add(mmg_block.DIAMOND_GRATE.asItem());
+            itemGroup.add(mmg_block.EMERALD_GRATE.asItem());
+            itemGroup.add(mmg_block.NETHERITE_GRATE.asItem());
                 });
     }
 }

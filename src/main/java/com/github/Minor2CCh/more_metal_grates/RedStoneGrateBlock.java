@@ -1,11 +1,12 @@
 package com.github.Minor2CCh.more_metal_grates;
 
 import net.minecraft.block.BlockState;
+import net.minecraft.block.GrateBlock;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.BlockView;
 
-public final class RedStoneGrateBlock extends MetalGrateBlock {
+public final class RedStoneGrateBlock extends GrateBlock {
     public RedStoneGrateBlock(Settings settings) {
         super(settings);
     }

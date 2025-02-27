@@ -4,7 +4,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class mmg_item extends Item{
+public class mmg_item{
 
 
 
@@ -16,10 +16,7 @@ public class mmg_item extends Item{
 
 
 
-
-    public mmg_item(Settings settings) {
-        super(settings);
-    }
+/*
     public static Item register(Item item, String id) {
         // Create the identifier for the item.
         Identifier itemID = Identifier.of(More_metal_grates.MOD_ID, id);
@@ -35,7 +32,7 @@ public class mmg_item extends Item{
     }
     public void onInitialize() {
 
-    }
+    }*/
 
 
 }

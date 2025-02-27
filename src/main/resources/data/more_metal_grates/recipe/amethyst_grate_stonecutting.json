@@ -1,8 +1,7 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:amethyst_block"
-  },
+  "ingredient": "minecraft:amethyst_block"
+  ,
   "result": {
     "count": 1,
     "id": "more_metal_grates:amethyst_grate"
