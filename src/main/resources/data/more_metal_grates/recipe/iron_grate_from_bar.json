@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "iron_grate",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "pattern": [
+    "###",
+    "   ",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more_metal_grates:iron_grate"
+  }
+}

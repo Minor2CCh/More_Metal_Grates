@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "more_metal_grates:amethyst_grate"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "more_metal_grates:blocks/amethyst_grate"
+}
