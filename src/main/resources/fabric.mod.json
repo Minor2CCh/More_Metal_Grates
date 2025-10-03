@@ -5,9 +5,7 @@
   "name": "More Metal Grates",
   "description": "Add some grates!",
   "authors": ["Minor2CCh"],
-  "contact": {
-    "issues": "https://github.com/Minor2CCh/More_Metal_Grates/issues",
-    "sources": "https://github.com/Minor2CCh/More_Metal_Grates"},
+  "contact": {},
   "license": "MIT",
   "icon": "icon.png",
   "environment": "*",
@@ -19,9 +17,15 @@
       "com.github.Minor2CCh.more_metal_grates.More_metal_grates"
     ]
   },
+  "mixins": [
+    "more_metal_grates.mixins.json"
+  ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.16.0",
     "fabric": "*",
-    "minecraft": ">=1.21.6"
+    "minecraft": "<=1.21.1 >=1.21"
+  },
+  "suggests": {
+    "coppergratesbubblethru": ">=2.0"
   }
 }
