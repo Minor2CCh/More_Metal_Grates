@@ -1,5 +1,6 @@
 package com.github.Minor2CCh.more_metal_grates;
 
+import com.github.Minor2CCh.more_metal_grates.config.ModConfigLoader;
 import net.fabricmc.api.ModInitializer;
 
 public class More_metal_grates implements ModInitializer {
@@ -7,6 +8,7 @@ public class More_metal_grates implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ModConfigLoader.load();
         mmg_item.initialize();
         mmg_block.initialize();
         mmg_ItemGroup.initialize();

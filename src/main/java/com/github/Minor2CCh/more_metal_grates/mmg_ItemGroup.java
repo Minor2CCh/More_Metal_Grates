@@ -14,7 +14,7 @@ public class mmg_ItemGroup {
     public static final RegistryKey<ItemGroup> GRATES_ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(More_metal_grates.MOD_ID, "grates_item_group"));
     public static final ItemGroup GRATES_ITEM_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(mmg_block.IRON_GRATE))
-            .displayName(Text.translatable("More Metal Grates"))
+            .displayName(Text.literal("More Metal Grates"))
             .build();
     public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, GRATES_ITEM_GROUP_KEY, GRATES_ITEM_GROUP);
