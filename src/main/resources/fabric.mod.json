@@ -19,9 +19,15 @@
       "com.github.Minor2CCh.more_metal_grates.More_metal_grates"
     ]
   },
+  "mixins": [
+    "more_metal_grates.mixins.json"
+  ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.16.0",
     "fabric": "*",
-    "minecraft": ">=1.21.3"
+    "minecraft": ">=1.21.3 <=1.21.5"
+  },
+  "suggests": {
+    "coppergratesbubblethru": ">=2.0"
   }
 }
