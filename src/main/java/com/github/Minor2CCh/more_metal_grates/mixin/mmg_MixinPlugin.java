@@ -22,7 +22,7 @@ public class mmg_MixinPlugin implements IMixinConfigPlugin {
     @Override
     public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
         // Mixin名で分岐
-        if (mixinClassName.equals("com.github.Minor2CCh.more_metal_grates.mixin.compat.CGBBlockTagsMixinMixin")) {
+        if (mixinClassName.equals("com.github.Minor2CCh.more_metal_grates.mixin.compat.CGBBlockTagsMixin")) {
             return FabricLoader.getInstance().isModLoaded("coppergratesbubblethru");
 
         }

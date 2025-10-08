@@ -43,7 +43,7 @@ dependencies {
 
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-    modImplementation "maven.modrinth:copper-grates-bubble:2.1+1.21.1"
+    modImplementation "maven.modrinth:copper-grates-bubble:2.1+1.21.9"
 }
 
 processResources {
