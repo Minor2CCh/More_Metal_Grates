@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:redstone_block"
+  },
+  "result": "more_metal_grates:redstone_grate"
+
+}

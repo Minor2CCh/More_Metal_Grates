@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 32,
+  "ingredient": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": "more_metal_grates:netherite_grate"
+
+}

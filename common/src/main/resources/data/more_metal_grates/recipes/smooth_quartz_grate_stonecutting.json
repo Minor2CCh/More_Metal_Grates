@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:smooth_quartz"
+  },
+  "result": "more_metal_grates:smooth_quartz_grate"
+
+}

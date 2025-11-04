@@ -1,0 +1,53 @@
+{
+  "block.more_metal_grates.copper_grate.break": {
+    "subtitle" :  "subtitles.block.generic.break" ,
+    "sounds": [
+      "more_metal_grates:block/copper_grate/break1",
+      "more_metal_grates:block/copper_grate/break2",
+      "more_metal_grates:block/copper_grate/break3",
+      "more_metal_grates:block/copper_grate/break4"
+    ]
+  },
+  "block.more_metal_grates.copper_grate.place": {
+    "subtitle" :  "subtitles.block.generic.place" ,
+    "sounds": [
+      "more_metal_grates:block/copper_grate/break1",
+      "more_metal_grates:block/copper_grate/break1",
+      "more_metal_grates:block/copper_grate/break2",
+      "more_metal_grates:block/copper_grate/break3",
+      "more_metal_grates:block/copper_grate/break4"
+    ]
+  },
+  "block.more_metal_grates.copper_grate.hit": {
+    "subtitle" :  "subtitles.block.generic.hit" ,
+    "sounds": [
+      "more_metal_grates:block/copper_grate/step1",
+      "more_metal_grates:block/copper_grate/step2",
+      "more_metal_grates:block/copper_grate/step3",
+      "more_metal_grates:block/copper_grate/step4",
+      "more_metal_grates:block/copper_grate/step5",
+      "more_metal_grates:block/copper_grate/step6"
+    ]
+  },
+  "block.more_metal_grates.copper_grate.fall": {
+    "sounds": [
+      "more_metal_grates:block/copper_grate/step1",
+      "more_metal_grates:block/copper_grate/step2",
+      "more_metal_grates:block/copper_grate/step3",
+      "more_metal_grates:block/copper_grate/step4",
+      "more_metal_grates:block/copper_grate/step5",
+      "more_metal_grates:block/copper_grate/step6"
+    ]
+  },
+  "block.more_metal_grates.copper_grate.step": {
+    "subtitle" :  "subtitles.block.generic.footsteps" ,
+    "sounds": [
+      "more_metal_grates:block/copper_grate/step1",
+      "more_metal_grates:block/copper_grate/step2",
+      "more_metal_grates:block/copper_grate/step3",
+      "more_metal_grates:block/copper_grate/step4",
+      "more_metal_grates:block/copper_grate/step5",
+      "more_metal_grates:block/copper_grate/step6"
+    ]
+  }
+}

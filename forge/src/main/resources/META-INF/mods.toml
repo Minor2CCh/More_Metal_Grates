@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+displayURL = "https://modrinth.com/mod/more-metal-grates"
+
+[[mods]]
+modId = "more_metal_grates"
+version = "${version}"
+displayName = "More Metal Grates"
+authors = "Minor2CCh"
+description = '''
+Add some grates.
+'''
+logoFile = "icon.png"
+
+[[dependencies.more_metal_grates]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.more_metal_grates]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,1.20.2)"
+ordering = "NONE"
+side = "BOTH"
+

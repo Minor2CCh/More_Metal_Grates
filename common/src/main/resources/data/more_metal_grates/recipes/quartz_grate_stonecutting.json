@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "result": "more_metal_grates:quartz_grate"
+
+}
