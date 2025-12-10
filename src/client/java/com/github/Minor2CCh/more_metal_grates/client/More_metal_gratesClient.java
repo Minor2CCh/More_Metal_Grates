@@ -9,8 +9,7 @@ public class More_metal_gratesClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.putBlocks(BlockRenderLayer.CUTOUT_MIPPED,
-                mmg_block.IRON_GRATE,
+        BlockRenderLayerMap.putBlocks(BlockRenderLayer.CUTOUT,
                 mmg_block.IRON_GRATE,
                 mmg_block.GOLD_GRATE,
                 mmg_block.LAPIS_GRATE,
