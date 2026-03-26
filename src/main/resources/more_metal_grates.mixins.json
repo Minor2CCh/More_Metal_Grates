@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "plugin" : "com.github.Minor2CCh.more_metal_grates.mixin.mmg_MixinPlugin",
+  "plugin" : "com.github.Minor2CCh.more_metal_grates.mixin.MMGMixinPlugin",
   "package": "com.github.Minor2CCh.more_metal_grates.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "compatibilityLevel": "JAVA_25",
   "mixins": [
     "compat.CGBBlockTagsMixin"
   ],
