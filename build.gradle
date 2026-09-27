@@ -1,5 +1,5 @@
 plugins {
-    id 'net.fabricmc.fabric-loom' version '1.15-SNAPSHOT'
+    id 'net.fabricmc.fabric-loom' version '1.17-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -36,7 +36,7 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
     //modImplementation("maven.modrinth:copper-grates-bubble:2.1+1.21.11")
-    implementation("maven.modrinth:copper-grates-bubble:2.1+26.1")
+    implementation("maven.modrinth:copper-grates-bubble:2.2+26.3")
 }
 
 processResources {

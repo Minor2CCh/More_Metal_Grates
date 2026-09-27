@@ -26,8 +26,7 @@ public class MMGBlocks {
                     .requiresCorrectToolForDrops()
                     .isValidSpawn(Blocks::never)
                     .isRedstoneConductor(Blocks::never)
-                    .isSuffocating(Blocks::never)
-                    .isViewBlocking(Blocks::never),
+                    .isSuffocating(Blocks::never),
             defaultItemProperties()
     );
     public static final Block GOLD_GRATE = register(
@@ -39,8 +38,7 @@ public class MMGBlocks {
                     .requiresCorrectToolForDrops()
                     .isValidSpawn(Blocks::never)
                     .isRedstoneConductor(Blocks::never)
-                    .isSuffocating(Blocks::never)
-                    .isViewBlocking(Blocks::never),
+                    .isSuffocating(Blocks::never),
             defaultItemProperties()
     );
 
@@ -53,8 +51,7 @@ public class MMGBlocks {
                     .requiresCorrectToolForDrops()
                     .isValidSpawn(Blocks::never)
                     .isRedstoneConductor(Blocks::never)
-                    .isSuffocating(Blocks::never)
-                    .isViewBlocking(Blocks::never),
+                    .isSuffocating(Blocks::never),
             defaultItemProperties()
     );
     public static final Block QUARTZ_GRATE = register(
@@ -67,8 +64,7 @@ public class MMGBlocks {
                     .requiresCorrectToolForDrops()
                     .isValidSpawn(Blocks::never)
                     .isRedstoneConductor(Blocks::never)
-                    .isSuffocating(Blocks::never)
-                    .isViewBlocking(Blocks::never),
+                    .isSuffocating(Blocks::never),
             defaultItemProperties()
     );
     public static final Block SMOOTH_QUARTZ_GRATE = register(
@@ -79,8 +75,7 @@ public class MMGBlocks {
                     .requiresCorrectToolForDrops()
                     .isValidSpawn(Blocks::never)
                     .isRedstoneConductor(Blocks::never)
-                    .isSuffocating(Blocks::never)
-                    .isViewBlocking(Blocks::never),
+                    .isSuffocating(Blocks::never),
             defaultItemProperties()
     );
     public static final Block AMETHYST_GRATE = register(
@@ -91,8 +86,7 @@ public class MMGBlocks {
                     .requiresCorrectToolForDrops()
                     .isValidSpawn(Blocks::never)
                     .isRedstoneConductor(Blocks::never)
-                    .isSuffocating(Blocks::never)
-                    .isViewBlocking(Blocks::never),
+                    .isSuffocating(Blocks::never),
             defaultItemProperties()
     );
     public static final Block REDSTONE_GRATE = register(
@@ -103,8 +97,7 @@ public class MMGBlocks {
                     .requiresCorrectToolForDrops()
                     .isValidSpawn(Blocks::never)
                     .isRedstoneConductor(Blocks::never)
-                    .isSuffocating(Blocks::never)
-                    .isViewBlocking(Blocks::never),
+                    .isSuffocating(Blocks::never),
             defaultItemProperties()
     );
     public static final Block DIAMOND_GRATE = register(
@@ -115,8 +108,7 @@ public class MMGBlocks {
                     .requiresCorrectToolForDrops()
                     .isValidSpawn(Blocks::never)
                     .isRedstoneConductor(Blocks::never)
-                    .isSuffocating(Blocks::never)
-                    .isViewBlocking(Blocks::never),
+                    .isSuffocating(Blocks::never),
             defaultItemProperties()
     );
     public static final Block EMERALD_GRATE = register(
@@ -127,8 +119,7 @@ public class MMGBlocks {
                     .requiresCorrectToolForDrops()
                     .isValidSpawn(Blocks::never)
                     .isRedstoneConductor(Blocks::never)
-                    .isSuffocating(Blocks::never)
-                    .isViewBlocking(Blocks::never),
+                    .isSuffocating(Blocks::never),
             defaultItemProperties()
     );
     public static final Block NETHERITE_GRATE = register(
@@ -139,8 +130,7 @@ public class MMGBlocks {
                     .requiresCorrectToolForDrops()
                     .isValidSpawn(Blocks::never)
                     .isRedstoneConductor(Blocks::never)
-                    .isSuffocating(Blocks::never)
-                    .isViewBlocking(Blocks::never),
+                    .isSuffocating(Blocks::never),
             defaultItemProperties()
     );
     private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties blockProperties, Item.Properties itemProperties) {

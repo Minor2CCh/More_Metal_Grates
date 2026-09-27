@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "more_metal_grates:diamond_grate"
+        "recipes": "more_metal_grates:diamond_grate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

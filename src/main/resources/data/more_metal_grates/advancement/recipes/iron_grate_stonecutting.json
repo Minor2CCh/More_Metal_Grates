@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "more_metal_grates:iron_grate_stonecutting"
+        "recipes": "more_metal_grates:iron_grate_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

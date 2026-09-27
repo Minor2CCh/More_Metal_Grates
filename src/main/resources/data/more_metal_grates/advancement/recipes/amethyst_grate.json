@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "more_metal_grates:amethyst_grate"
+        "recipes": "more_metal_grates:amethyst_grate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
